@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/cinmeora.png" type="image">
+    <!-- CDN for DaisyUI and TailwindCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cinemora - Home</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <div class="navbar shadow-lg">
+            <div class="flex-1">
+                <a class="lg:text-[47px] lg:ml-10 md:text-[29px] sm:text-[30px] font-bold"
+                    href="./index.html">Cinemora</a>
+            </div>
+            <div class="flex-none">
+                <ul
+                    class="menu menu-horizontal px-1 lg:gap-10 lg:text-[18px] lg:mr-20 sm:text-[10px] sm:gap-1  font-semibold">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/about.html">About Us</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <button class="btn btn-primary"><a href="#top_rated">Top Rated</a></button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero section -->
+        <div class="hero-contianer">
+            <div class="main-hero">
+                <div class="hero min-h-screen">
+                    <div class="hero-content text-center">
+                        <div>
+                            <h1 class="lg:text-[5rem] text-[50px] font-bold">Welcome to Cinemora</h1>
+                            <p class="py-6 px-6 text-center lg:text-2xl">
+                                Your Movies, Your Rankings. Discover the films you love, rate them your way, and see how
+                                they stack up against the rest.
+                            </p>
+                            <button class="btn btn-primary"><a href="#genres">Get Started</a></button>
+                            <img class="w-full mt-5 lg:h-[90vh]" src="./assets/hero.png" alt="Black Swan Poster">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Movie Genres -->
+        <section class="genres-section" id="genres">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Movie Genres</h2>
+                </div>
+                <a href="./pages/action.html">
+                    <div class="genre-card">
+                        <div class="genre-image">
+                            <img src="./assets/action.png" alt="Action representation">
+                        </div>
+                        <div class="genre-info">
+                            <h3>Action</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="./pages/adventure.html">
+                    <div class="genre-card">
+                        <div class="genre-image">
+                            <img src="./assets/adventure.png" alt="City of Ember Poster">
+                        </div>
+                        <div class="genre-info">
+                            <h3>Adventure</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="./pages/thriller.html">
+                    <div class="genre-card">
+                        <div class="genre-image">
+                            <img src="./assets/thriller.png" alt="Watcher Poster">
+                        </div>
+                        <div class="genre-info">
+                            <h3>Thriller</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="./pages/sci-fi.html">
+                    <div class="genre-card">
+                        <div class="genre-image">
+                            <img src="./assets/sci-fi.png" alt="I Am Mother Movie Poster">
+                        </div>
+                        <div class="genre-info">
+                            <h3>Sci-Fi</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="top_rated" id="top_rated">
+            <div class="top_rated-container">
+                <div class="top_rated-card">
+                    <div class="top_rated-image">
+                        <img src="./assets/mission_impossible.png" alt="Mission Impossible: The Final Reckoning">
+                    </div>
+                    <div class="top_rated-info">
+                        <p>1</p>
+                        <p>Mission Impossible - The Final Reckoning</p>
+                        <button><a href="https://fmoviesunblocked.net/spa/videoPlayPage/movies/mission-impossible-the-final-reckoning-waRSiIg0JQ8?id=7428149681496408912&type=/movie/detail">Watch Now</a></button>
+                    </div>
+                </div>
+                <div class="top_rated-card">
+                    <div class="top_rated-image">
+                        <img src="./assets/alien.png" alt="Alien: Earth">
+                    </div>
+                    <div class="top_rated-info">
+                        <p>2</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

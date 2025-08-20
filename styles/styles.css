@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #0d0d0d,
+    #351c39,
+    #73144e,
+    #b50043,
+    #e50914
+  );
+  color: #f5f5f5;
+}
+
+button {
+  background-color: #e50914;
+}
+
+.genres-section, footer {
+}
