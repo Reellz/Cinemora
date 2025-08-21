@@ -1,0 +1,79 @@
+/* General Page Styles */
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(135deg, #141414, #000000);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Action Movies Section */
+.action-movies {
+  padding: 50px 20px;
+}
+
+.action-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card Styles */
+.action_card {
+  background: #1c1c1c;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action_card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.8);
+}
+
+.action_card-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card Info */
+.action_card-info {
+  padding: 20px;
+}
+
+.action_card-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #e50914;
+}
+
+.action_card-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Watch Now Button */
+.action_card-info button {
+  display: inline-block;
+  background: #e50914;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action_card-info button:hover {
+  background: #b20710;
+}
+
+.action_card-info button a {
+  color: #fff;
+  text-decoration: none;
+}
